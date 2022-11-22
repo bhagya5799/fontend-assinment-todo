@@ -1,0 +1,169 @@
+.li-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: 90px;
+    align-items: center;
+    box-shadow: #0d0d0e 0px 0px 1px 0px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.color1{
+    color: #32a852;
+}
+
+.color3{
+    color: #4954b8;
+}
+
+.color4{
+    color: #c640ff;
+}
+
+.color5{
+   color: #e8502a;
+}
+
+.color6{
+    color: #20e33d;
+}
+.color2{
+    color: #a5e320;
+}
+
+.avathar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-letter{
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    background-color: black;
+    padding: 0.6rem;
+    border-radius: 25px;
+}
+.username-para{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.delete-icon{
+   font-size: 40px;
+   
+}
+.btn-delete-user{
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    cursor: pointer;
+}
+.li-container-task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    height: 70px;
+    align-items: center;
+    align-self: center;
+    background-image: linear-gradient(to right, #1a88ff, #e6f2ff);
+    box-shadow: #0d0d0e 0px 0px 1px 0px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.red{
+    color: rgb(207, 67, 67);
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.green{
+    color: green;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.bg-container-pop{
+    background-color: #00111211;
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.btn-container-cancell-delte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-cancel-pop{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 6px;
+    padding: 7px;
+    color: green;
+    font-family: "Roboto";
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-delete-pop{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #f5071f;
+    border-radius: 6px;
+    padding: 7px;
+    color: #f5071f;
+    font-family: "Roboto";
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.para-pop{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.each-task-para{
+    color: #171b36;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.li-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.statusColor{
+    font-weight: bold;
+    font-size: 17px;
+}

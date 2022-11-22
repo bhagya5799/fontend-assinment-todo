@@ -1,0 +1,30 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: #b1bab3 1px 1px 1px 1px;
+    background-color: black;
+    color: aliceblue;
+    gap: 10px;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.icon-logo{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.app-name{
+    font-size: 33px;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,76 @@
+.user-list-button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.home-about{
+    background-image: linear-gradient(to right, #a55cbe, #868fd8);
+    /* height: 100vh; */
+}
+.white{
+    color: black;
+}
+.add-btn{
+    height: 2rem;
+    width: 6rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 5px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow:10px 10px 10px;
+    padding: 4px;
+    width: 20rem;
+    margin-left: 4rem;
+    gap: 1rem;
+    padding: 1rem;
+    border-color: white;
+    background-color: #28348a;
+}
+.button{
+    color: white;
+    background-color: rgb(158, 110, 203);
+    width: 5rem;
+    height: 2rem;
+    border-width: 0;
+    border-radius: 2px;
+}
+.cancel-icon{
+    align-self: flex-end;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.user-ul-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.loading-container{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 69vh;
+    width: 100vw;
+}
+.input{
+    width: 15rem;
+    height: 2.3rem;
+    padding-left: 10px;
+    color: black;
+    outline: none;
+}
