@@ -5,9 +5,10 @@ const UserList = props => {
     const {userListItems, onDeleteUserList, toggleCheckbox} = props 
     const {id,todo, isCompleted }= userListItems 
     console.log("props", userListItems)
-    const randomColor = [
-        "color1" ,"color2","color3" ,"color4","color5" ,"color6",
-    ]
+    // const randomColor = [
+    //     "color1" ,"color2","color3" ,"color4","color5" ,"color6",
+    // ]
+    // const result = randomColor[Math.floor(Math.random() * randomColor.length)]
     
     const deleteUser = () => {
         if (isCompleted === true){
