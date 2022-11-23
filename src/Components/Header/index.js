@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+
 import { FcTodoList } from "react-icons/fc"
 import './index.css' 
 
@@ -10,7 +10,6 @@ const Header = () => (
     </div>
     <div>
     </div>
- 
     </nav>
 )
 
