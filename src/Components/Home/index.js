@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BiArrowBack } from "react-icons/bi"
+import { MdCancel } from "react-icons/md"
 import Loader from 'react-loader-spinner'
 import Header from '../Header'
 import { v4 as uuidv4 } from 'uuid'
@@ -222,21 +222,21 @@ class Home extends Component {
         <Header />
         <div className='user-list-button'>
           <h1 className='white'>Task List</h1>
-          <button className='add-btn' onClick={this.clickTodo} type="button">Add List Button </button>
+          <button className='add-btn' onClick={this.clickTodo} type="button">Add Task</button>
           <button onClick={() => this.setState({ currentList: 'All' })} className="yellow">
             All List
             </button>
           <button onClick={() => this.setState({ currentList: 'Completed' })} className="green">
             Done List
             </button>
-          <button onClick={() => this.setState({ currentList: 'Pending' })} className="red">NotDone</button>
+          <button onClick={() => this.setState({ currentList: 'Pending' })} className="red">Not Done</button>
         </div>
         {isClicked &&
           <form className='form-container' onSubmit={this.submitUserTask}>
-            <BiArrowBack className='cancel-icon' onClick={this.onCloseAddUserColumn} />
+            <MdCancel className='cancel-icon' onClick={this.onCloseAddUserColumn} />
             <label className="task" htmlFor="username" >Task</label>
             <input placeholder='What Needs To Be Done' id="username" className="input" type="text" value={input} onChange={this.onChageUserTask} />
-            <button className='button' type='submit'>Click</button>
+            <button className='button' type='submit'>Add</button>
           </form>
         }
         {this.renderUserListData()}
