@@ -4,6 +4,7 @@
     gap: 2rem;
     padding-left: 2rem;
     padding-top: 2rem;
+    /* justify-content: space-around; */
 }
 .home-about{
     background-image: linear-gradient(to right, #a55cbe, #868fd8);
@@ -16,7 +17,7 @@
     height: 3rem;
     width: 10rem;
     background-color: rgb(31, 31, 31);
-    background-image: radial-gradient(rgb(43, 0, 255),rgb(25, 185, 25));
+    background-image: radial-gradient(rgb(43, 0, 255),rgb(25, 105, 185));
     color: rgb(246, 228, 228);
     font-weight: bold;
     border-width: 1px;
@@ -87,16 +88,29 @@ button{
 
 }
 .yellow{
-    background-color: rgb(188, 210, 63);
+    background-color: rgb(15, 16, 16);
     color: white;
     text-align: center;
     border-width: 0;
     outline: none;
     font-size: 18px;
     border-radius: 4px;
+
+}
+.yellow:focus{
+ background-color: yellow;
+ color: black;
+}
+.green:focus{
+    background-color: green;
+    color: black;
+}
+.red:focus{
+    background-color: red;
+    color: black;
 }
 .green{
-    background-color: rgb(37, 158, 33);
+    background-color: rgb(12, 12, 12);
     color: white;
     text-align: center;
     border-width: 0;
@@ -105,7 +119,7 @@ button{
     border-radius: 4px;
 }
 .red{
-    background-color: rgb(189, 30, 30);
+    background-color: rgb(14, 14, 14);
     color: white;
     text-align: center;
     border-width: 0;
