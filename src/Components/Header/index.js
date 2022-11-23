@@ -9,8 +9,6 @@ const Header = () => (
     <h1 className="app-name">TodoList</h1>
     </div>
     <div>
-    <button>SavedTask</button>
-    <button>DeleteTask</button>
     </div>
  
     </nav>

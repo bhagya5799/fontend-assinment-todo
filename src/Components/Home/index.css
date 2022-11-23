@@ -13,13 +13,17 @@
     color: black;
 }
 .add-btn{
-    height: 2rem;
-    width: 6rem;
-    background-color: blue;
-    color: white;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(31, 31, 31);
+    background-image: radial-gradient(rgb(43, 0, 255),rgb(25, 185, 25));
+    color: rgb(246, 228, 228);
     font-weight: bold;
-    border-width: 0;
+    border-width: 1px;
     border-radius: 5px;
+    margin-right: 2rem;
+    border-color: aliceblue;
+
 }
 .form-container{
     display: flex;
@@ -34,6 +38,9 @@
     padding: 1rem;
     border-color: white;
     background-color: #28348a;
+}
+.task{
+    color: white;
 }
 .button{
     color: white;
@@ -73,4 +80,36 @@
     padding-left: 10px;
     color: black;
     outline: none;
+}
+button{
+    height: 2rem;
+    width: 6rem;
+
+}
+.yellow{
+    background-color: rgb(188, 210, 63);
+    color: white;
+    text-align: center;
+    border-width: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.green{
+    background-color: rgb(37, 158, 33);
+    color: white;
+    text-align: center;
+    border-width: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.red{
+    background-color: rgb(189, 30, 30);
+    color: white;
+    text-align: center;
+    border-width: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
 }
